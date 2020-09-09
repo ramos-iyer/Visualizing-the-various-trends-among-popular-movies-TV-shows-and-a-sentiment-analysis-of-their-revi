@@ -134,6 +134,7 @@ Note – We haven’t tried with Safari browser and hence cannot infer on how th
 
 5)	Python –
 As the code is written in python, you will need to download and install the latest version of python along with the below given packages in it using the “pip install” method or any other method you prefer.
+
 Packages : requests, pymongo, pandas, psycopg2, numpy, plotly, statistics, json, nltk, afinn, scattertext, re, io, pprint, scipy, spacy, os, pkgutil, urllib, IPython, sklearn
 
 
