@@ -86,6 +86,27 @@ In order to generate the visualizations, the following sequence needs to be foll
 
 ### Screenshots
 
+![Screenshot1](images/Trend_TV.PNG)
+![Screenshot2](images/Trend_Movies.PNG)
+![Screenshot3](images/Language_TV.PNG)
+![Screenshot4](images/Language_Movies.PNG)
+![Screenshot5](images/Popularity_Average_TV.PNG)
+![Screenshot6](images/Popularity_Average_Movies.PNG)
+![Screenshot7](images/Runtime_TV.PNG)
+![Screenshot8](images/Runtime_Movies.PNG)
+![Screenshot9](images/Genres_TV.PNG)
+![Screenshot10](images/Genres_Movies.PNG)
+![Screenshot11](images/GenrePopularity_TV.png)
+![Screenshot12](images/GenrePopularity_MOVIE.png)
+![Screenshot13](images/AuthorPopularity_TV.png)
+![Screenshot14](images/AuthorPopularity_MOVIE.png)
+![Screenshot15](images/AuthorReviewSentiment_TV.png)
+![Screenshot16](images/AuthorReviewSentiment_MOVIE.png)
+![Screenshot17](images/WordScatter_TV.png)
+![Screenshot18](images/WordScatter_MOVIE.png)
+![Screenshot19](images/AuthorScatter_TV.png)
+![Screenshot20](images/AuthorScatter_MOVIE.png)
+
 <a id='config'></a>
 
 ### System Configuration Steps
