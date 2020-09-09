@@ -32,6 +32,7 @@ The aim of this research is to analyse the various trends and distributions amon
 
 Each of the files in this project follows the same methodology in order to extract, transform and visualize the data. Below image shows the same - 
 
+![Methodology1](images/postgres.png) ![Methodology2](images/visual.png)
 
 <a id='components'></a>
 
