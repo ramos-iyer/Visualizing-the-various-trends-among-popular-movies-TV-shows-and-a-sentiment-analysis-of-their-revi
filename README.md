@@ -155,5 +155,5 @@ The code files are kept under the folder 'Codes'. Below is a short description o
 
 ### Credits and Acknowledgements
 
-* [TMDB]() for providing the data used for this project.
-* [NCI]() for a challenging project as part of their full-time masters in data analytics course subject 'Database and Analytics Programming'
+* [TMDB](https://www.themoviedb.org/) for providing the data used for this project.
+* [NCI](https://www.ncirl.ie/) for a challenging project as part of their full-time masters in data analytics course subject 'Database and Analytics Programming'
