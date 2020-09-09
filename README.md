@@ -7,6 +7,7 @@
 ## Table of Contents
 
 - [Overview](#overview)
+- [Methodology](#method)
 - [Components](#components)
   - [Movie metadata](#movie_full)
   - [TV Shows metadata](#tv_full)
@@ -24,6 +25,67 @@
 
 ### Overview
 The aim of this research is to analyse the various trends and distributions among popular movies and tv shows along with a sentiment analysis of the reviews for them. Considering the number of movies and tv shows spread throughout the years along with their popularity, ratings, genres and various other intrinsic factors, we have created visualizations for better understanding of what the current trends have been. Along with this, a sentiment analysis of the various reviews were considered which was divided into positive and negative reviews and a visual study was conducted to find comparisons between these two modes of entertainment. A notable finding was that there is no correlation of the ratings and the popularity of movies as well as tv shows along with the fact that movies and tv shows released very recently have more popularity than others. In terms of the sentiment analysis of reviews for these popular movies and tv shows, the most number of popular tv shows is in the Drama genre, but it also has the most number of negative reviews.
+
+<a id='method'></a>
+
+### Methodology
+
+Each of the files in this project follows the same methodology in order to extract, transform and visualize the data. Below image shows the same - 
+
+
+<a id='components'></a>
+
+### Components
+There are four components to this project:
+
+<a id='movie_full'></a>
+
+#### Movie Metadata
+- Extracts the movie metadata like runtime, genre, production country, production company, etc.
+- Transforms the data.
+- Creates visualisations.
+
+<a id='tv_full'></a>
+
+#### TV Shows Metadata
+- Extracts the tv shows metadata like runtime, genre, production country, production company, etc.
+- Transforms the data.
+- Creates visualisations.
+
+<a id='movie_reviews'></a>
+
+#### Movie Reviews
+- Extracts the movie review data.
+- Transforms the data.
+- Performs sentiment analysis on the reviews.
+- Creates visualisations.
+
+<a id='tv_reviews'></a>
+
+#### TV Shows Reviews
+- Extracts the tv shows review data.
+- Transforms the data.
+- Performs sentiment analysis on the reviews.
+- Creates visualisations.
+
+<a id='running'></a>
+
+### Running the Code
+
+In order to generate the visualizations, the following sequence needs to be followed to run the code. This is due to the fact that the movie and tv show metadata being extracted and fed into the databases is also being used by the visualisations created in the movie and tv show reviews.
+
+- Movie_FULL.py
+- TV_FULL.py
+- Movie_Review.py
+- TV_Review.py
+
+<a id='screenshots'></a>
+
+### Screenshots
+
+<a id='config'></a>
+
+### System Configuration Steps
 
 In order to run the codes mentioned in this project, you need to follow the below given configuration steps :
 
@@ -78,5 +140,20 @@ It will help to have any kind of Python IDE installed on your machine to have a 
 7)	Final checks –
 Please verify and change the IP Address mentioned in the code to the IP Address of the machine on which you have installed MongoDB and PostgresSQL along with the port numbers if you have changed while installing these softwares. Also, if you are creating a user with a different user ID and password, be sure to change the same as well in the code before proceeding with the execution.
 
-8)	While Executing –
-Execute the TV_FULL and MOVIE_FULL codes before executing the Movie_Review and TV_Review codes as the review codes are using some data from the descriptive data for movies and tv shows.
+<a id='files'></a>
+
+### File Descriptions
+
+The code files are kept under the folder 'Codes'. Below is a short description of the files:
+
+- Movie_FULL.py: To extract, transform and create the visualizations for the movie metadata.
+- TV_FULL.py: To extract, transform and create the visualizations for the tv shows metadata.
+- Movie_Review.py: To extract, transform and create the visualizations for the movie reviews.
+- TV_Review.py: To extract, transform and create the visualizations for the tv show reviews.
+
+<a id='credits'></a>
+
+### Credits and Acknowledgements
+
+* [TMDB]() for providing the data used for this project.
+* [NCI]() for a challenging project as part of their full-time masters in data analytics course subject 'Database and Analytics Programming'
